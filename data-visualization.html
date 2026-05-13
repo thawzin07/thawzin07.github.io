@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Thaw Zin</title>
+<title>Data Visualization – Thaw Zin</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data-visualization.html"> 
+    <a class="nav-link active" href="./data-visualization.html" aria-current="page"> 
 <span class="menu-text">Data Visualization</span></a>
   </li>  
   <li class="nav-item">
@@ -128,9 +128,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a></li>
-  <li><a href="#current-focus" id="toc-current-focus" class="nav-link" data-scroll-target="#current-focus">Current Focus</a></li>
-  <li><a href="#website-map" id="toc-website-map" class="nav-link" data-scroll-target="#website-map">Website Map</a></li>
+  <li><a href="#weekly-learning-progress" id="toc-weekly-learning-progress" class="nav-link active" data-scroll-target="#weekly-learning-progress">Weekly Learning Progress</a></li>
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
+  <li><a href="#design-notes" id="toc-design-notes" class="nav-link" data-scroll-target="#design-notes">Design Notes</a></li>
   </ul>
 </nav>
     </div>
@@ -139,8 +139,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Thaw Zin</h1>
-<p class="subtitle lead">Personal website for AAI1001 Data Engineering and Visualization</p>
+<h1 class="title">Data Visualization</h1>
 </div>
 
 
@@ -157,51 +156,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to my personal website, built with Quarto and published through GitHub Pages. This site collects a short introduction, selected work, a data visualization example, and a reflection on using GenAI as a learning partner.</p>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>I am a SIT student developing my skills in data engineering, visualization, software development, and applied problem solving. I enjoy building practical systems, learning new tools, and turning messy ideas into clear, usable outputs.</p>
+<section id="weekly-learning-progress" class="level2">
+<h2 class="anchored" data-anchor-id="weekly-learning-progress">Weekly Learning Progress</h2>
+<p>The chart below is a simple example of how visualizations can summarize progress over time. The values are illustrative and represent increasing confidence while working through the first few weeks of the module.</p>
+<div class="progress-chart">
+<div class="bar-row">
+<div class="bar-label">
+<p>Week 01</p>
+</div>
+<div class="bar-track">
+<div class="bar-fill" style="width: 45%;">
+<p>45%</p>
+</div>
+</div>
+</div>
+<div class="bar-row">
+<div class="bar-label">
+<p>Week 02</p>
+</div>
+<div class="bar-track">
+<div class="bar-fill green" style="width: 62%;">
+<p>62%</p>
+</div>
+</div>
+</div>
+<div class="bar-row">
+<div class="bar-label">
+<p>Week 03</p>
+</div>
+<div class="bar-track">
+<div class="bar-fill orange" style="width: 74%;">
+<p>74%</p>
+</div>
+</div>
+</div>
+<div class="bar-row">
+<div class="bar-label">
+<p>Week 04</p>
+</div>
+<div class="bar-track">
+<div class="bar-fill red" style="width: 83%;">
+<p>83%</p>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="current-focus" class="level2">
-<h2 class="anchored" data-anchor-id="current-focus">Current Focus</h2>
+<section id="interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
+<p>The chart shows how confidence can improve as a learner repeats a workflow: create a file, render it, inspect the result, fix issues, and publish the finished output. Even a small visualization can make a written reflection easier to understand because the reader can scan the trend immediately.</p>
+</section>
+<section id="design-notes" class="level2">
+<h2 class="anchored" data-anchor-id="design-notes">Design Notes</h2>
+<p>A useful chart should have:</p>
 <ul>
-<li>Strengthening my foundations in data structures, algorithms, and visualization.</li>
-<li>Practicing reproducible technical writing with Quarto Markdown.</li>
-<li>Building small projects that connect programming concepts to real use cases.</li>
-<li>Learning how to use GitHub and GitHub Pages for sharing work professionally.</li>
+<li>A clear title.</li>
+<li>Labels that explain what the values mean.</li>
+<li>A scale that does not exaggerate the message.</li>
+<li>A short written interpretation beside the visual.</li>
 </ul>
-</section>
-<section id="website-map" class="level2">
-<h2 class="anchored" data-anchor-id="website-map">Website Map</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Page</th>
-<th>What you will find</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="./projects.html">Projects</a></td>
-<td>A short overview of selected academic and software projects.</td>
-</tr>
-<tr class="even">
-<td><a href="./data-visualization.html">Data Visualization</a></td>
-<td>A sample chart and explanation of what the data shows.</td>
-</tr>
-<tr class="odd">
-<td><a href="./reflection.html">GenAI Reflection</a></td>
-<td>Notes on how GenAI helped during this lab.</td>
-</tr>
-<tr class="even">
-<td><a href="./about.html">About</a></td>
-<td>Contact and background information.</td>
-</tr>
-</tbody>
-</table>
-<blockquote class="blockquote">
-<p>The goal of this website is not only to publish a page, but also to practice presenting technical work clearly.</p>
-</blockquote>
 
 
 </section>
