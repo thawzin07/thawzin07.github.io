@@ -1,0 +1,43 @@
+---
+title: "Projects"
+---
+
+## Selected Work
+
+This page highlights a few types of projects I am building or improving as part of my learning journey.
+
+### Personal Website
+
+This Quarto website is a small but useful publishing project.
+It combines Markdown writing, YAML configuration, page navigation, custom CSS, Git version control, and GitHub Pages deployment.
+
+**What I practiced:**
+
+- Setting up a Quarto website project.
+- Rendering the website into the `docs` folder for GitHub Pages.
+- Organizing multiple pages with a navigation bar.
+- Writing content in a clear portfolio style.
+
+### Data Structures and Algorithms Practice
+
+I am learning how to choose appropriate data structures and algorithms for different problems.
+The main focus is understanding trade-offs such as readability, memory use, and time complexity.
+
+**Topics:**
+
+- Basic data structures.
+- Recursion.
+- Sorting and searching.
+- Graph and string algorithms.
+
+### Data Engineering and Visualization
+
+This module helps me connect data processing with communication.
+The goal is to make data easier to inspect, explain, and share.
+
+**Tools and concepts:**
+
+- Quarto documents and websites.
+- Markdown formatting.
+- Tables, charts, and written interpretation.
+- Responsible use of GenAI support.

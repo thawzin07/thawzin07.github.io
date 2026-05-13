@@ -1,0 +1,26 @@
+---
+title: "About"
+---
+
+## Profile
+
+**Name:** Thaw Zin  
+**GitHub:** [thawzin07](https://github.com/thawzin07)  
+**Website:** [https://thawzin07.github.io](https://thawzin07.github.io)
+
+I am interested in software development, data analysis, and the way visual explanations can make technical ideas easier to understand.
+This website was created for the Week 02 Lab in AAI1001 Data Engineering and Visualization.
+
+## Skills I Am Practicing
+
+- Quarto Markdown for technical publishing.
+- Git and GitHub for version control.
+- Data storytelling and visualization.
+- Clean page structure, navigation, and documentation.
+
+## Course Context
+
+This website is part of a required lab submission.
+The submitted URL should point to the live GitHub Pages site:
+
+<https://thawzin07.github.io>

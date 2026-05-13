@@ -1,0 +1,30 @@
+---
+title: "Thaw Zin"
+subtitle: "Personal website for AAI1001 Data Engineering and Visualization"
+---
+
+Welcome to my personal website, built with Quarto and published through GitHub Pages.
+This site collects a short introduction, selected work, a data visualization example, and a reflection on using GenAI as a learning partner.
+
+## About Me
+
+I am a SIT student developing my skills in data engineering, visualization, software development, and applied problem solving.
+I enjoy building practical systems, learning new tools, and turning messy ideas into clear, usable outputs.
+
+## Current Focus
+
+- Strengthening my foundations in data structures, algorithms, and visualization.
+- Practicing reproducible technical writing with Quarto Markdown.
+- Building small projects that connect programming concepts to real use cases.
+- Learning how to use GitHub and GitHub Pages for sharing work professionally.
+
+## Website Map
+
+| Page | What you will find |
+|---|---|
+| [Projects](projects.qmd) | A short overview of selected academic and software projects. |
+| [Data Visualization](data-visualization.qmd) | A sample chart and explanation of what the data shows. |
+| [GenAI Reflection](reflection.qmd) | Notes on how GenAI helped during this lab. |
+| [About](about.qmd) | Contact and background information. |
+
+> The goal of this website is not only to publish a page, but also to practice presenting technical work clearly.

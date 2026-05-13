@@ -1,0 +1,69 @@
+---
+title: "Data Visualization"
+---
+
+## Weekly Learning Progress
+
+The chart below is a simple example of how visualizations can summarize progress over time.
+The values are illustrative and represent increasing confidence while working through the first few weeks of the module.
+
+::: {.progress-chart}
+::: {.bar-row}
+::: {.bar-label}
+Week 01
+:::
+::: {.bar-track}
+::: {.bar-fill style="width: 45%;"}
+45%
+:::
+:::
+:::
+
+::: {.bar-row}
+::: {.bar-label}
+Week 02
+:::
+::: {.bar-track}
+::: {.bar-fill .green style="width: 62%;"}
+62%
+:::
+:::
+:::
+
+::: {.bar-row}
+::: {.bar-label}
+Week 03
+:::
+::: {.bar-track}
+::: {.bar-fill .orange style="width: 74%;"}
+74%
+:::
+:::
+:::
+
+::: {.bar-row}
+::: {.bar-label}
+Week 04
+:::
+::: {.bar-track}
+::: {.bar-fill .red style="width: 83%;"}
+83%
+:::
+:::
+:::
+:::
+
+## Interpretation
+
+The chart shows how confidence can improve as a learner repeats a workflow:
+create a file, render it, inspect the result, fix issues, and publish the finished output.
+Even a small visualization can make a written reflection easier to understand because the reader can scan the trend immediately.
+
+## Design Notes
+
+A useful chart should have:
+
+- A clear title.
+- Labels that explain what the values mean.
+- A scale that does not exaggerate the message.
+- A short written interpretation beside the visual.

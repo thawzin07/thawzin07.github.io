@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  color: #1f3b4d;
+}
+
+.navbar {
+  border-bottom: 1px solid #d8e0e6;
+}
+
+blockquote {
+  border-left: 4px solid #4c78a8;
+  color: #34495e;
+  padding-left: 1rem;
+}
+
+table {
+  width: 100%;
+}
+
+.progress-chart {
+  margin: 1.5rem 0;
+  max-width: 760px;
+}
+
+.bar-row {
+  align-items: center;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 90px 1fr;
+  margin: 0.75rem 0;
+}
+
+.bar-label {
+  font-weight: 700;
+}
+
+.bar-track {
+  background: #e8edf2;
+  border-radius: 6px;
+  min-height: 32px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  background: #4c78a8;
+  color: #ffffff;
+  font-weight: 700;
+  min-height: 32px;
+  padding: 0.25rem 0.75rem;
+  text-align: right;
+}
+
+.bar-fill.green {
+  background: #59a14f;
+}
+
+.bar-fill.orange {
+  background: #f28e2b;
+}
+
+.bar-fill.red {
+  background: #e15759;
+}

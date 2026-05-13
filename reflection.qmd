@@ -1,0 +1,29 @@
+---
+title: "GenAI Reflection"
+---
+
+## Tools Used
+
+For this lab, I used GenAI assistance to understand the lab instructions, organize the website structure, draft page content, and check that the Quarto project follows the required GitHub Pages workflow.
+
+## How It Helped
+
+GenAI was useful for breaking down the task into smaller steps:
+
+- Identify the required submission URL.
+- Create the Quarto website files.
+- Configure `_quarto.yml` with `output-dir: docs`.
+- Add multiple pages with meaningful content.
+- Render the project and prepare it for GitHub Pages.
+
+It also helped improve the wording of the website so that the pages read more clearly and consistently.
+
+## What Was Challenging
+
+The main challenge was making sure that the website was not only created locally, but also prepared correctly for deployment.
+For GitHub Pages, the rendered files need to be available in the `docs` folder, and the repository settings must point GitHub Pages to that folder.
+
+## What I Learned
+
+I learned that GenAI is most helpful when I already understand the goal and use it to support the workflow.
+It can speed up writing and debugging, but I still need to verify the final result, understand the files that were created, and make sure the submission link points to the live website.
